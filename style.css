@@ -8,6 +8,7 @@ body {
 }
 .nav-items> a {
     flex: auto;
+    flex-wrap: nowrap;
     margin: 20px 30px;
     border: 20px;
     padding: 0 15px 0 15px;
@@ -58,6 +59,7 @@ h1 {
     grid-row: 2 / 3;
     text-decoration: none;
     font-size: large;
+    text-align: justify;
 }
 img {
     opacity: .70;
