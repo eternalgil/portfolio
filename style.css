@@ -6,13 +6,14 @@
 body {
     background-color: #fffffff0;
     width: 100%;
-    height: 100vh;
-    width: 100vw;
+    height: 100%vh;
+    width: 100%;
 }
 /*Portfoliio Section*/
 .wrapper {
     padding: 20px 30px;
     width: 100%;
+    height: 0%;
 }
 /*End of Portfolio section*/
 .header {
@@ -65,6 +66,7 @@ h1 {
     grid-column: 3 / 5;
     grid-row: 1 / 3;
     border-radius: 0 30% 40% 30%;
+    filter:brightness(120%);
 }
 .hello {
     padding: 5px;
@@ -97,26 +99,76 @@ a {
 .wrapper-section {
     padding: 10px 80px;
 }
+
 /* css cirlce animation
-.circle-one {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50px;
-}
-.circle-two {
-    height: 100px;
-    width: 100px;
-    border: black solid 2px;
-    background-color: white;
-    border-radius: 50px;
-}
-.circle-three {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-radius: 50px;
 } */
+.blkcircle {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation: bcircle 3s alternate-reverse infinite;
+    border-radius: 15% 50%;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    padding-right: 50px;
+    margin-right: 100px;
+}
+.aqua {
+    width: 75px;
+    height: 75px;
+    background-color: aquamarine;
+    position: relative;
+    animation: aqua 3s alternate-reverse infinite;
+    border-radius: 15% 50%;
+    grid-column: 5 / 5;
+}
+@keyframes aqua {
+    from {top: 0;}
+    to {top: 400px}
+}
+.aqua2 {
+    width: 75px;
+    height: 400px;
+    padding: 20px;
+    background-color: aquamarine;
+    position: relative;
+    animation: aqua2 3s alternate-reverse infinite;
+    border-radius: 50%;
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
+@keyframes aqua2 {
+    from {top: 300px;}
+    to {top: 2px}
+}
+.graycircle {
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    position: relative;
+    animation: graycircle 4s alternate-reverse infinite;
+    border-radius: 15% 50%;
+    grid-column: 5 / 5;
+    grid-row: 1 / 2;
+}
+@keyframes bcircle {
+    to {top: 0px}
+    from {top: 220px}
+}
+@keyframes graycircle{
+    from {top: 300px}
+    to {top: 0px}
+}
+.sidesection {
+    display: grid;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    margin-bottom: 100px;
+    height: 600px;
+    border: 300px;
+}
+/*end of animation*/
 .social {
     display: grid;
     height: 100%vh;
@@ -126,7 +178,6 @@ a {
 footer {
     position: sticky;
     bottom: 0%;
-    border-radius: 5px;
     text-align: center;
     background-color: black;
     color: white;
@@ -134,5 +185,5 @@ footer {
     margin: 0;
     padding: 5px 10px; 
     left: 0; right: 0; bottom: 0;
-    height: [footer-height];   
+    height: 25px;   
 }
