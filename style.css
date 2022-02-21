@@ -1,189 +1,26 @@
-*{
+* {
     box-sizing: border-box;
-    margin: 0;
+    margin: 0%;
     padding: 0;
 }
-body {
-    background-color: #fffffff0;
-    width: 100%;
-    height: 100%vh;
-    width: 100%;
-}
-/*Portfoliio Section*/
-.wrapper {
-    padding: 20px 30px;
-    width: 100%;
-    height: 0%;
-}
-/*End of Portfolio section*/
-.header {
-    padding: 0 45px;
-}
-.nav {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    border-radius: 5px;
-    padding: 3px 10px;
-    margin: 3px 10px;
-}
-li {
-    margin: 70px;
-}
- li a {
-    border-radius: 15px;
-    padding: 3px 10px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}  
-a:hover {
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    box-shadow: black 2px;
-    cursor: pointer;
-}
-#main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 40px 20px;
-}
-h1 {
-    font-size: 5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: overline;
-    text-align-last: center;
-    letter-spacing: 15px;
-}
-.image {
-    padding: 10px;
-    margin: 10px;
-    height: 550px;
-    width: 500px;
-    grid-column: 3 / 5;
-    grid-row: 1 / 3;
-    border-radius: 0 30% 40% 30%;
-    filter:brightness(120%);
-}
-.hello {
-    padding: 5px;
-    padding-left: 1.5em;
-    margin: 15px;
-    width: 500px;
-    height: 100px;
-    grid-column: 1 / 3;
-    grid-row: 1 / 2;
-}
-.about {
-    padding: 25px;
-    padding-left: 7em;
-    margin: 0px;
-    width: 600px;
-    height: 100px;
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
-    font-size: large;
-    text-align: justify;
-    line-height: 1.6;
-}
-img {
-    opacity: .90;
-    width: auto;
-}
-a {
-    text-decoration: none;
-}
-.wrapper-section {
-    padding: 10px 80px;
-}
 
-/* css cirlce animation
-} */
-.blkcircle {
-    width: 150px;
-    height: 100px;
-    background-color: black;
-    position: relative;
-    animation: bcircle 3s alternate-reverse infinite;
-    border-radius: 15% 50%;
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    padding-right: 50px;
-    margin-right: 100px;
-}
-.aqua {
-    width: 75px;
-    height: 75px;
-    background-color: aquamarine;
-    position: relative;
-    animation: aqua 3s alternate-reverse infinite;
-    border-radius: 15% 50%;
-    grid-column: 5 / 5;
-}
-@keyframes aqua {
-    from {top: 0;}
-    to {top: 400px}
-}
-.aqua2 {
-    width: 75px;
-    height: 400px;
-    padding: 20px;
-    background-color: aquamarine;
-    position: relative;
-    animation: aqua2 3s alternate-reverse infinite;
-    border-radius: 50%;
-    grid-column: 1 / 1;
-    grid-row: 1 / 3;
-}
-@keyframes aqua2 {
-    from {top: 300px;}
-    to {top: 2px}
-}
-.graycircle {
-    width: 125px;
-    height: 125px;
-    background-color: gray;
-    position: relative;
-    animation: graycircle 4s alternate-reverse infinite;
-    border-radius: 15% 50%;
-    grid-column: 5 / 5;
-    grid-row: 1 / 2;
-}
-@keyframes bcircle {
-    to {top: 0px}
-    from {top: 220px}
-}
-@keyframes graycircle{
-    from {top: 300px}
-    to {top: 0px}
-}
-.sidesection {
-    display: grid;
-    grid-column: 1 / 1;
-    grid-row: 1 / 1;
-    margin-bottom: 100px;
-    height: 600px;
-    border: 300px;
-}
-/*end of animation*/
-.social {
-    display: grid;
-    height: 100%vh;
-    padding: 0 80px;
-    padding-bottom: 20px;
-}
-footer {
-    position: sticky;
-    bottom: 0%;
-    text-align: center;
-    background-color: black;
-    color: white;
-    font-size: small;
-    margin: 0;
-    padding: 5px 10px; 
-    left: 0; right: 0; bottom: 0;
-    height: 25px;   
-}
+/*
+Header / Navigation Styling
+*/
+
+
+
+/*
+Content Styling
+*/
+
+
+
+/*
+Footer Styling
+*/
+
+
+/*
+Media Query Styling
+*/
