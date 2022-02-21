@@ -2,23 +2,60 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 /*
 Header / Navigation Styling
 */
 
+.nav_container {
+  
+}
 
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
 
 /*
-Content Styling
+Main Content Styling
 */
 
+
+main {
+    width: 100%;
+    display: flex;
+}
+main .hello h1 .nav_container {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: h1 p;
+    width: 100%;
+    margin: 10%;
+}
+
+
+img {
+    height: 700px;
+    width: 85%;
+    margin: 3% 0%;
+    border-radius: 0 25px 45px 0;
+    opacity: .8;
+    
+}
 
 
 /*
 Footer Styling
 */
+
+
+
 
 
 /*
